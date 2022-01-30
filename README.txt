@@ -6,6 +6,9 @@ BEFORE RUNNING
 - A MySQL database called "sensors" must be set up on port 3306
 - In the application, the username is hardcoded to "root" and the password can be entered
 
+TESTING
+- Unit tests for the formatting of the SQL request for the \request command are included in the SensorappApplicationTests class
+
 SETTING UP THE API
 - The main class is called "SensorappApplication"
 - Upon running, you will be asked for the database password
